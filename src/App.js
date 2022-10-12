@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Blog from "./components/Blog/Blog";
 import Home from "./components/Home/Home";
+import NotFound from "./components/NotFound/NotFound";
 import Questions from "./components/Questions/Questions";
 import Quizes from "./components/Quizes/Quizes";
 import Stats from "./components/Stats/Stats";
@@ -50,6 +51,10 @@ function App() {
         },
       ],
     },
+    {
+      path: '*',
+      element: <NotFound></NotFound>
+    }
   ]);
 
   return( 

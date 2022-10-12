@@ -4,7 +4,7 @@ import background from '../../pictures/bg-picture.png'
 
 const Home = () => {
     return (
-      <div className="bg-gray-300 flex flex-col-reverse md:flex-row justify-center items-center pb-16">
+      <div className="bg-gray-300 flex flex-col-reverse md:flex-row justify-center items-center">
         <div
           className="w-1/2 flex
           flex-col justify-center items-center"
