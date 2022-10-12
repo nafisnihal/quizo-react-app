@@ -4,7 +4,7 @@ import background from '../../pictures/bg-picture.png'
 
 const Home = () => {
     return (
-      <div className="bg-gray-300 flex flex-col-reverse md:flex-row justify-center items-center">
+      <div className="bg-gray-300 flex flex-col-reverse md:flex-row justify-center items-center pb-5">
         <div
           className="w-1/2 flex
           flex-col justify-center items-center"
@@ -14,7 +14,7 @@ const Home = () => {
             <Link to="/quizes">Take Quizes</Link>
           </button>
         </div>
-        <div className="w-1/2">
+        <div className="w-2/5">
           <img src={background} alt="" />
         </div>
       </div>
