@@ -9,8 +9,8 @@ const Header = () => {
         <NavLink
           className={({ isActive }) =>
             isActive
-              ? "ml-5 font-medium text-yellow-400"
-              : "ml-5 font-medium hover:text-yellow-400"
+              ? "ml-5 font-medium text-yellow-500"
+              : "ml-5 font-medium hover:text-yellow-500"
           }
           to="/home"
         >
@@ -19,8 +19,8 @@ const Header = () => {
         <NavLink
           className={({ isActive }) =>
             isActive
-              ? "ml-5 font-medium text-yellow-400"
-              : "ml-5 font-medium hover:text-yellow-400"
+              ? "ml-5 font-medium text-yellow-500"
+              : "ml-5 font-medium hover:text-yellow-500"
           }
           to="/quizes"
         >
@@ -29,8 +29,8 @@ const Header = () => {
         <NavLink
           className={({ isActive }) =>
             isActive
-              ? "ml-5 font-medium text-yellow-400"
-              : "ml-5 font-medium hover:text-yellow-400"
+              ? "ml-5 font-medium text-yellow-500"
+              : "ml-5 font-medium hover:text-yellow-500"
           }
           to="/stats"
         >
@@ -39,8 +39,8 @@ const Header = () => {
         <NavLink
           className={({ isActive }) =>
             isActive
-              ? "ml-5 font-medium text-yellow-400"
-              : "ml-5 font-medium hover:text-yellow-400"
+              ? "ml-5 font-medium text-yellow-500"
+              : "ml-5 font-medium hover:text-yellow-500"
           }
           to="/blog"
         >
