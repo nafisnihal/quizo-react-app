@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="flex flex-col md:flex-row md:justify-between items-center bg-slate-900 text-white py-4">
       <h1 className="text-4xl text font-bold ml-3">Quizo</h1>
-      <div className="mr-5 ">
+      <div className="mr-5 sm:mt-5">
         <NavLink
           className={({ isActive }) =>
             isActive
