@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Quiz = ({ quiz }) => {
   console.log(quiz);
@@ -11,7 +12,8 @@ const Quiz = ({ quiz }) => {
         <p className="text-xs">Total Questions: {total}</p>
       </div>
       <button className="text-white bg-slate-900 px-4 py-2 rounded-lg font-semibold hover:bg-white hover:text-black">
-        Take Quiz
+        {" "}
+        <Link to={`/quiz/${id}`}>Take Quiz</Link>
       </button>
     </div>
   );
