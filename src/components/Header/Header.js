@@ -4,15 +4,15 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div className="flex flex-col md:flex-row md:justify-between items-center bg-slate-900 text-white py-4">
-      <h1 className="text-4xl text font-bold ml-3">Quizo</h1>
-      <div className="mr-5 sm:mt-5">
+      <h1 className="text-4xl text font-bold md:ml-14">Quizo</h1>
+      <div className="md:mr-10 mt-5 md:mt-0">
         <NavLink
           className={({ isActive }) =>
             isActive
               ? "ml-5 font-medium text-yellow-500"
               : "ml-5 font-medium hover:text-yellow-500"
           }
-          to="/home"
+          to="/"
         >
           Home
         </NavLink>
@@ -24,7 +24,7 @@ const Header = () => {
           }
           to="/quizes"
         >
-          Quizes
+          Quizzes
         </NavLink>
         <NavLink
           className={({ isActive }) =>
@@ -35,16 +35,6 @@ const Header = () => {
           to="/stats"
         >
           Stats
-        </NavLink>
-        <NavLink
-          className={({ isActive }) =>
-            isActive
-              ? "ml-5 font-medium text-yellow-500"
-              : "ml-5 font-medium hover:text-yellow-500"
-          }
-          to="/blog"
-        >
-          Blog
         </NavLink>
       </div>
     </div>
